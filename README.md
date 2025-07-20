@@ -8,3 +8,7 @@ Bu Kodu Çalıştırmak İçin Yapmanız Gerekenler:
 
 Kodunuzu ilk çalıştırdığınıza ürününüzün linki fiyatıyla beraber alıcıya bir mail gidecektir ve ürünün fiyatında bir değişiklik olduğunda size bildirim atacaktır. 
 kodu açık tutmazsanız eğer bu bildirim sağlanamaz. Ürün fiyatını inceleme döngüsü belli bir süre aralığıyla tutuludur 23. satırdan bu süreyi değiştirebilirsiniz.
+
+Eğer Amazon Kullanmıyorsanız şu ayarlarıda değiştirmelisiniz:
+77. Satırda bulunan 'productTitle' yerine sitenizde bulunana ürünün isminin id'sini koymalısınız (İncele sayfasından bulabilirsiniz)
+81. Satırda ise fiyatınızın bulunduğu class ismini şunun yerine girin 'a-offscreen' (sayfanızı inceleyerek bulabilirsiniz)
